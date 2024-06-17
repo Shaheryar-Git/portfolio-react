@@ -65,9 +65,77 @@
   margin-top: 23px !important;
 }
 
-.pic{
-  width: 70%;
-  height: 350px;
- border: 1px solid rgb(98, 98, 179);
- border-radius: 10%;
+.tech{
+  /* margin-left: 50% !important; */
+}
+
+.contact__text ,  a{
+  color: #cad1d8 !important;
+  text-decoration: none !important;
+
+}
+
+/* ////////// */
+
+
+
+@media (max-width: 576px) {
+  .banner{
+    width: 100%;
+  }
+  .pic{
+    width: 100%;
+  }
+  .tech{
+    text-align: center;
+
+    /* justify-content: center; */
+  }
+
+.card {
+  width: 100% !important;
+}
+.card img {
+  width: 100% !important;
+  height: auto !important;
+}
+.contact__info{
+  margin-top: 14%;
+}
+/* #viewbtn{
+  margin-top: 0%;
+} */
+}
+
+@media (max-width: 577px) and (max-width : 992px) {
+  #viewbtn{
+   margin-top: 4%;
+   margin-right: 10%;
+  }
+}
+
+
+@media (max-width: 800px) and (max-width : 1280px) {
+  .banner{
+    width: 100%;
+  }
+  .pic{
+    width: 100%;
+  }
+  .tech{
+    text-align: center;
+
+    /* justify-content: center; */
+  }
+
+.card {
+  width: 100% !important;
+}
+.card img {
+  width: 100% !important;
+  height: auto !important;
+}
+.contact__info{
+  margin-top: 10%;
+}
 }
