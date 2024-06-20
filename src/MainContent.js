@@ -2,6 +2,8 @@ import React from "react";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+
 
 
 
@@ -13,6 +15,16 @@ const MainContent = () => {
           easing: 'ease-in-out', // Easing function
         });
       }, []);
+
+   
+      
+      const  [text]  = useTypewriter({
+        words: ["FRONT END REACT DEVELOPER", "WEB DEVELOPER", "MERN STACK DEVELOPER"],
+        loop:true,
+        typeSpeed: 180,
+        deleteSpeed: 50,
+        delaySpeed: 1000,
+      });
     
 
 
@@ -22,14 +34,16 @@ const MainContent = () => {
       <div className="row p-5" style={{backgroundColor:"#E7FBED",height:"700px"}}>
         <div className="intro col-sm-12 col-md-12 col-lg-6" >
           <h1 
-            className="heading-primary mt-5"   
+            className="heading-primary mt-5 "   
             style={{ opacity: 1, transform: "none"}}
           >
-            <span data-aos="fade-in" className="fw-bolder"> Hi, I'm </span> <span className="text-primary " data-aos="fade-out">Shaheryar!</span>
+            <span data-aos="fade-in" className="fw-bolder"> Hi, I'm </span> <span  className="text-primary " data-aos="fade-out">Shaheryar Ali</span>
             <br />
-            FRONT END REACT Developer
+        
+          
+           
           </h1>
-          <p className="fs-2 " data-aos="fade-out">I'm a passionate frontend React Developer</p>
+          <p className="fs-2" data-aos="fade-out"  >I'm a passionate   <span style={{fontWeight:"bold",color:"red"}}>{text}<Cursor/></span></p>
         <a href="/ShaheryarCv (2) (1) (1).pdf" download><button className="btn btn-dark text-white fw-bolder p-2 mt-3 ">Download CV</button></a>  
        <a href="#about"> <button id="about" className="btn btn-dark text-white fw-bolder p-2 mt-3 ms-5">About me</button> </a>
           {/* <button className="btn btn-dark text-white ms-5 p-3">Get Connected</button> */}
@@ -48,7 +62,7 @@ const MainContent = () => {
           <div class="section__heading">
             <h2 class="section__heading--main">Full Stack Web Developer</h2>
             <p class="about__me--text" data-aos="fade-out">
-              <h4 >
+              <h4 className="me">
                 Organized and efficient developer with 1 year of experience in
                 web development. Proficient in creating dynamic and responsive
                 web applications using <strong className="text-danger">React.js</strong> and managing
@@ -162,9 +176,9 @@ const MainContent = () => {
                     <br/>
                     <i class="fa-brands fa-github me-1 fs-3"></i><strong className="fw-bolder fs-4">Get Code</strong>
                     
-                    <button id="viewbtn" className="btn btn-dark text-white ms-5 ">
+                    {/* <button id="viewbtn" className="btn btn-dark text-white ms-5 ">
                       Visit Website
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
@@ -205,9 +219,9 @@ const MainContent = () => {
                     <br/>
                     <i class="fa-brands fa-github me-1 fs-3"></i><strong className="fw-bolder fs-4">Get Code</strong>
                     
-                    <button id="viewbtn" className="btn btn-dark text-white ms-5 ">
+                    {/* <button id="viewbtn" className="btn btn-dark text-white ms-5 ">
                       Visit Website
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
@@ -249,9 +263,9 @@ const MainContent = () => {
                     <br/>
                     <i class="fa-brands fa-github me-1 fs-3"></i><strong className="fw-bolder fs-4">Get Code</strong>
                     
-                    <button id="viewbtn" className="btn btn-dark text-white ms-3">
+                    {/* <button id="viewbtn" className="btn btn-dark text-white ms-3">
                       Visit Website
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
@@ -296,8 +310,8 @@ Keep Rising 🚀. Connect with me over live chat!</span>
     <h4 class="contact__title"><i class="fa-brands fa-linkedin  fs-5 me-2"></i>linkedin</h4>
     <a href="https://www.linkedin.com/in/shaheryar-ali-0581a02a4/" class="contact__text  fw-bolder fs-5">Shaheryar Ali </a>
     
-    <h6 className="me-5"> Email : Shaheryarsherry114@gmail.com</h6>
-    <h6 className="me-5"> Contact No   : 031141467543</h6>
+    <h6 className="contacts me-5"> Email : Shaheryarsherry114@gmail.com</h6>
+    <h6 className=" contacts me-5"> Contact No   : 031141467543</h6>
     </div>
     </div>
     
