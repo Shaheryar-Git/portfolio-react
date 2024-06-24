@@ -26,6 +26,9 @@ const MainContent = () => {
         delaySpeed: 1000,
       });
     
+      const Alert =() =>{
+        alert("PROJECT IN PROGRESS")
+      }
 
 
 
@@ -174,7 +177,7 @@ const MainContent = () => {
                     </p>
                     <br/>
                     <br/>
-                    <i class="fa-brands fa-github me-1 fs-3"></i><strong className="fw-bolder fs-4">Get Code</strong>
+                   <a href="https://github.com/Shaheryar-gif/easy-shop-react"> <i class="fa-brands fa-github me-1 fs-3 text-dark"></i> </a>  <a  className="text-dark" href="https://github.com/Shaheryar-gif/easy-shop-react"><strong className="fw-bolder fs-4">Get Code</strong></a>
                     
                     {/* <button id="viewbtn" className="btn btn-dark text-white ms-5 ">
                       Visit Website
@@ -217,7 +220,7 @@ const MainContent = () => {
                     </p>
                     <br/>
                     <br/>
-                    <i class="fa-brands fa-github me-1 fs-3"></i><strong className="fw-bolder fs-4">Get Code</strong>
+                    <a href="https://github.com/Shaheryar-gif/go-food"><i class="fa-brands fa-github me-1 fs-3 text-dark"></i> </a> <a className="text-dark" href="https://github.com/Shaheryar-gif/go-food"><strong className="fw-bolder fs-4">Get Code</strong></a>
                     
                     {/* <button id="viewbtn" className="btn btn-dark text-white ms-5 ">
                       Visit Website
@@ -261,7 +264,7 @@ const MainContent = () => {
                     </p>
                     <br/>
                     <br/>
-                    <i class="fa-brands fa-github me-1 fs-3"></i><strong className="fw-bolder fs-4">Get Code</strong>
+                     <i class="fa-brands fa-github me-1 fs-3" onClick={Alert}></i><strong className="fw-bolder fs-4">Get Code</strong>
                     
                     {/* <button id="viewbtn" className="btn btn-dark text-white ms-3">
                       Visit Website

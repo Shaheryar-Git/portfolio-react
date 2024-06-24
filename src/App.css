@@ -136,9 +136,13 @@ color: rgb(153, 218, 23);
   margin-top: 14%;
 }
 .contacts{
-  margin: auto;
+  font-size: small;
   margin-left: 5%;
 }
+.me{
+  font-size: small;
+}
+
 
 
 /* #viewbtn{
