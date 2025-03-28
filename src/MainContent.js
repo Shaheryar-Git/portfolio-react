@@ -58,48 +58,32 @@ const MainContent = () => {
       </div>
 
       {/* ///////ABOUT ME/////// */}
-      <h3 class="section__heading--sub text-primary fs-1 mt-5">- About me</h3>
-      <div className="container-fluid p-5" id="about" data-aos="fade-in">
-      <div className="row p-4">
-        <div className="col-sm-12 col-md-12 col-lg-6 p-2 text-center ">
-          <div class="section__heading">
-            <h2 class="section__heading--main">Full Stack Web Developer</h2>
-            <p class="about__me--text" data-aos="fade-out">
-              <h4 className="me">
-                Organized and efficient developer with 1 year of experience in
-                web development. Proficient in creating dynamic and responsive
-                web applications using <strong className="text-danger">React.js</strong> and managing
-                databases with <strong className="text-danger">MongoDB</strong>. Successfully completed
-                a certification course in programming, where I gained
-                substantial knowledge in <strong className="text-danger">HTML</strong>,{" "}
-                <strong className="text-danger">CSS</strong>, <strong className="text-danger">JavaScript</strong>, and the{" "}
-                <strong className="text-danger">MERN stack</strong>. Developed an e-commerce website
-                showcasing my skills in both frontend and backend technologies.
-                Known for working effectively in professional and friendly
-                environments, continuously learning, and applying new
-                technologies.
-              </h4>
-              <br/>
-              <h4 className="me-5"><span className="text-primary">Email </span>: Shaheryarsherry114@gmail.com</h4>
-              <h4 className="me-5"><span  className="text-primary">Contact No  </span> : 031141467543</h4>
-            </p>
-          </div>
+      <section className="about-section text-center py-5 bg-light">
+  
+  <section className="about-section text-center py-5 bg-light">
+  <h3 className="text-primary fs-1 fw-bold">- About Me</h3>
+  <div className="container p-4" id="about" data-aos="fade-in">
+    <div className="row justify-content-center">
+      <div className="col-lg-8 p-3">
+        <h2 className="fw-bold text-dark">Full Stack Web Developer</h2>
+        <p className="lead text-muted" data-aos="fade-out">
+          An organized and efficient developer with <strong className="text-danger">four years of experience</strong> in web development. Skilled in creating <strong className="text-danger">dynamic and responsive</strong> web applications using <strong className="text-danger">React.js</strong> and proficient in database management with <strong className="text-danger">MongoDB</strong>.
+        </p>
+        <p className="lead text-muted">
+          Throughout my career, I have worked on numerous projects as a <strong className="text-danger">frontend developer</strong>, gaining extensive expertise in designing and developing user-friendly interfaces. Now, I offer my services as a <strong className="text-danger">frontend development specialist</strong>, while also possessing a solid understanding of <strong className="text-danger">backend technologies</strong>.
+        </p>
+        <hr className="my-4" />
+        <div className="contact-info">
+          <h5 className="fw-bold text-primary">Email:</h5>
+          <p className="text-dark mb-2 fw-bolder">Shaheryarsherry114@gmail.com</p>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 text-center">
-          {/* <h3 class="tech text-primary">- Tech Stack</h3> */}
-          <img className="pic " src="/IMG_20240619_231848_217.webp" width={400} height={300} />
-        </div>
-        {/* <div className="col-sm-12 col-md-12 col-lg-3 mt-5">
-          <img
-            className="pic ms-3"
-            src="/mern_hero.png"
-            width={400}
-            height={300}
-          />
-        </div> */}
       </div>
+    </div>
+  </div>
+</section>
 
-      </div>
+</section>
+
       <br />
 
 {/*//////////// SKILLS//////// */}
